@@ -4,7 +4,7 @@ cmake_minimum_required (VERSION 2.8)
 set (PROJECT_NAME "test-libotr")
 
 set (CMAKE_C_STANDARD 99)
-set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -W -Wall -Werror -ansi -pedantic")
+set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -W -Wall")
 set (CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fstack-protector-all")
 
 include_directories(${CMAKE_BINARY_DIR})

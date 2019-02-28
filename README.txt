@@ -10,5 +10,6 @@ Minimal reproducible example of crash in libotr or libgcrypt libraries which
 happens only in 64-bit MS Windows executables built using MinGW.
 
 Links:
-* https://github.com/psi-im/plugins/issues/45
+* Bug report: https://github.com/psi-im/plugins/issues/45
+* Build environment with MinGW: https://mxe.cc/
 

@@ -89,7 +89,7 @@ int main()
 
     otrl_userstate_free(userstate);
 
-    printf("Label 4\n"); fflush(stdout);
+    printf("Label 6\n"); fflush(stdout);
 
     return 0;
 }

@@ -6,6 +6,8 @@ set (PROJECT_NAME "test-libotr")
 set (CMAKE_C_STANDARD 99)
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -W -Wall")
 set (CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fstack-protector-all")
+set (CMAKE_BUILD_TYPE "RelWithDebInfo" CACHE STRING "" FORCE)
+set (CMAKE_VERBOSE_MAKEFILE "ON")
 
 include_directories(${CMAKE_BINARY_DIR})
 add_executable (${PROJECT_NAME} test-otr-key-generation.c)
